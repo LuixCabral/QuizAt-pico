@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightseagreen;
+}
+.BemVindo {
+    background-color: white;
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    height: 45px;
+}
+.Inicio-Quiz {
+    background-color: white;
+    margin: 6%;
+    padding: 5%;
+    border-radius: 8px 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+.Inicio-Quiz.Apresentação {
+    width: 33.33%; 
+    margin: 10px auto; 
+    padding: 10px;
+    font-size: 20px;
+    color: #333;
+}
+.Next{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    background-color: lightseagreen;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+.Apresentação h3 {
+    margin: 0 0 20px 0;
+}
