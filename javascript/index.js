@@ -6,6 +6,7 @@
   
     buttons.forEach((button) => {
       button.addEventListener('click', (e) => {
+        button.classList.toggle("active")
         const id = parseInt(button.id);
         if (correctAnswers.includes(id)) {
           contador++;
@@ -15,7 +16,6 @@
         }
       });
     });
-  
     const finalizar = document.getElementById('Finalizar');
     if (finalizar) {
       finalizar.addEventListener("click", function() {

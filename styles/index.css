@@ -5,24 +5,25 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: lightseagreen;
 }
 
 /* Estilização do cabeçalho de boas-vindas */
 .BemVindo {
-    background-color: #4CAF50;
-    color: white;
+    background-color: white;
+    color: #333;
     text-align: center;
     padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
 }
 
 /* Estilização das seções de perguntas */
 .Pergunta {
     background-color: white;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 6%;
+    padding: 5%;
+    border-radius: 8px 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
 }
 
 /* Estilização dos enunciados */
@@ -48,4 +49,8 @@ body {
 /* Estilo ao passar o mouse sobre os botões */
 .respostas input[type="button"]:hover {
     background-color: #45a049;
+}
+
+.respostas input.active {
+    background-color: lightseagreen;
 }
